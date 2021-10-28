@@ -1,7 +1,2 @@
-C4Tpassword
-C4Tpassword
-catpassword 2
-C4Tpassword
-C4Tpassword
-catpassword 2
-UsernamePassword
+Username
+Password
