@@ -23,7 +23,7 @@ def signUp(): # Sign Up
         if str(f.encrypt(user.encode())) in file.read(): # Checks if Username exists
             print("Username Already exists")
         else:
-            with open("userDB.txt", "r") as file: # Pusts (Username + Password) in userDB.txt
+            with open("userDB.txt", "r") as file: # Puts (Username + Password) in userDB.txt
                 userDB_file = file.readlines()
             
             usrpass = ((user + "\n") + userPass) + "\n"
