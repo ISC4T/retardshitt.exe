@@ -11,7 +11,7 @@ def signIn(): # Sign in
     usrpass = ((user + "\n") + userPass)
 
     with open('userDB.txt') as file: # Checks the login credentials
-     if str(f.encrypt(usrpass.encode())) in file.read():
+     if str(usrpass) in f.decrypt(file.read()):
          userLogin = True
 
 def signUp(): # Sign Up
