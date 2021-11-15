@@ -1,7 +1,5 @@
 Username
 Password
-Username
-Password
 user
 name
 Username
