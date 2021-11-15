@@ -39,8 +39,8 @@ def signUp(): # Sign Up
                 if userLogin == True:
                     print("Success!")
                 else:
-                    print("Login Failed")
-                    print("Try Again")
+                    print("Login Failed" + "\n")
+                    print("Try Again" + "\n")
                     time.sleep(1)
                     signIn()
 
@@ -54,8 +54,8 @@ if signOrSetup.lower() == ("sign in"):
     if userLogin == True:
          print("Success!")
     else:
-        print("Login Failed")
-        print("Try Again")
+        print("Login Failed" + "\n")
+        print("Try Again" + "\n")
         time.sleep(1)
         signIn()
        
