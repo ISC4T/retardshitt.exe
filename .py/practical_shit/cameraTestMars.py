@@ -44,5 +44,6 @@ def CameraDisplay():
         # Show the PyGame surface!
         surface.blit(surf, (0,0))
         pygame.display.flip()
-    
-CameraDisplay()
+
+if __name__ == "__main__":
+    CameraDisplay()
