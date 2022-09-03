@@ -1,5 +1,5 @@
 # IMPORT
-import tkinker
+import tkinter
 from tkinter import Tk, Label, Button, Entry, IntVar, END, W, E
 
 # CALCULATOR
